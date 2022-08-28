@@ -6,7 +6,7 @@
 
   <vendor>boltgolt</vendor>
   <vendor_url>https://github.com/Abuenameh/</vendor_url>
-  <action id="com.github.abuenameh.howdy.gui"> 
+  <action id="com.github.abuenameh.howdy-gtk.gui"> 
     <message>Privileges are required to perform facial recognition.</message>
     <icon_name>dialog-password</icon_name>
     <defaults>
