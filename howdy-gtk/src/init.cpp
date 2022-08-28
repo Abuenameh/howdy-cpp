@@ -6,6 +6,7 @@ void window_main(int argc, char *argv[], bool force_onboarding);
 
 int main(int argc, char *argv[])
 {
+    setenv("DISPLAY", ":0", 0);
     setenv("NO_AT_BRIDGE", "1", 1);
 
     argparse::ArgumentParser parser(argc, argv);
